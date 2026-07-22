@@ -12,3 +12,11 @@ client = AsyncOpenAI(
     api_key="api_key",     # API key
 )
 ```
+
+Once the virtual environment is created (and activated), install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+We happen to use Qwen (Qwen3.6-27B) locally via vLLM, feel free to make whatever adjustment that fits your pipeline.
+
