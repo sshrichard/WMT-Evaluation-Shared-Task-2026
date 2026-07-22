@@ -22,4 +22,4 @@ pip install -r requirements.txt
 
 # Training and testing
 
-In `main.py`, the large commented out part, below `# training #` corresponds to the learning the regression on human annotations, while the part below `# testing #` call the trained models, respectively here `model_full = joblib.load("model_full.joblib")` (the regression included confidence ratings) and here `predictions_test_full = model_full.predict(X)` (the regression did not include confidence ratings).
+In `main.py`, the large commented-out section below `# training #` trains the regressions on human annotations, while the section below `# testing #` loads and uses the trained models  (`model_full.predict(X)` for the model trained *with* confidence ratings, and `model_no_conf.predict(X_no_confidences)` for the one trained *without* them).
