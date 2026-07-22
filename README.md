@@ -18,5 +18,5 @@ Once the virtual environment is created (and activated), install the dependencie
 pip install -r requirements.txt
 ```
 
-We happen to use Qwen (Qwen3.6-27B) locally via vLLM, feel free to make whatever adjustment that fits your pipeline.
+**Remark:** We happen to use Qwen (Qwen3.6-27B) locally via vLLM, feel free to make whatever adjustment that fits your pipeline.
 
