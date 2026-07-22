@@ -22,4 +22,4 @@ pip install -r requirements.txt
 
 # Training and testing
 
-In `main.py`, the large commented-out section below `# training #` trains the regressions on human annotations, while the section below `# testing #` loads and uses the trained models  (`model_full.predict(X)` for the model trained *with* confidence ratings, and `model_no_conf.predict(X_no_confidences)` for the one trained *without* them).
+In `main.py`, the large commented-out section below `# training #` trains the regressions (`MLPRegressor`) on human annotations, while the section below `# testing #` loads and uses the trained models  (`model_full.predict(X)` for the model trained *with* confidence ratings, and `model_no_conf.predict(X_no_confidences)` for the one trained *without* them).
