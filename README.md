@@ -1,5 +1,8 @@
 # EMNLP-shared-task-2026
 
+This repository contains the necessary code to reproduce the results of our submitted paper to EMNLP WMT2026 "Leveraging Verbalized Confidence in LLM-as-a-Judge for Segment-Level Translation Quality Score Prediction".
+
+
 WORK IN PROGRESS
 
 # Usage
