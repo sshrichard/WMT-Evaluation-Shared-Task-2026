@@ -38,7 +38,7 @@ client = AsyncOpenAI(
 )
 
 
-# we prompt OpenAI API by batch
+# we prompt the API by batch
 BATCH_SIZE = 250
 
 
