@@ -1,13 +1,12 @@
 # EMNLP-shared-task-2026
 
-This repository contains the necessary code to reproduce the results of our submitted paper to EMNLP WMT2026 "Leveraging Verbalized Confidence in LLM-as-a-Judge for Segment-Level Translation Quality Score Prediction".
-
-
-WORK IN PROGRESS
+This repository contains the code to reproduce the results of our submitted paper to EMNLP WMT2026 "Leveraging Verbalized Confidence in LLM-as-a-Judge for Segment-Level Translation Quality Score Prediction".
 
 # Usage
 
-Before running `main.py`, fill in the following fields:
+`main.py` runs the pipeline that address subtask 1.
+
+Before executing `main.py`, fill in the following fields within the script:
 
 ```python
 client = AsyncOpenAI(
@@ -21,7 +20,8 @@ Once the virtual environment is created (and activated), install the dependencie
 pip install -r requirements.txt
 ```
 
-**Remark:** We happen to use Qwen (Qwen3.6-27B) locally via vLLM, feel free to make whatever adjustment that fits your pipeline.
+**Remark:** We happen to use Qwen3.6-27B, Qwen3.8-27B-FP8, and Babel-
+83B-chat, locally via vLLM; but feel free to make whatever adjustment that fits your pipeline.
 
 # Training and testing
 
