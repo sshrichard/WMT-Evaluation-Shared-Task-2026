@@ -4,7 +4,7 @@ This repository contains the code to reproduce the results of our submitted pape
 
 # Usage
 
-`main.py` runs the pipeline that address subtask 1.
+`main.py` runs the pipeline that address subtask 2, from which we also derive which segment is error-free (subtask 3). For our contribution to subtask 1, see https://aclanthology.org/2025.wmt-1.62/
 
 Before executing `main.py`, fill in the following fields within the script:
 
