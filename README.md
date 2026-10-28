@@ -4,7 +4,7 @@ This repository contains the code to reproduce the results of our submitted pape
 
 # Usage
 
-`main.py` runs the pipeline that address subtask 2, from which we also derive which segment is error-free (subtask 3). For our contribution to subtask 1, we essentially followed https://aclanthology.org/2025.wmt-1.62/ (see our paper for further details).
+`main.py` runs the pipeline that address subtask 2, from which we also derive which segment is error-free (subtask 3). For our contribution to subtask 1, run the `cot_tagged_span_annotation.py` using `cot_tagged_span_annotation.sh` (see our paper for further details).
 
 Before executing `main.py`, fill in the following fields within the script:
 
